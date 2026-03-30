@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shamsuzzaman Prince — Software Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-logo">S.PRINCE_</div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="../one_page_cv/index.html" target="_blank" class="nav-cv">CV ↗</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Software Engineer &nbsp;·&nbsp; Full Stack &nbsp;·&nbsp; Open to work</p>
+      <h1>Sam<br><span class="line2">Prince.</span></h1>
+      <p class="hero-sub">
+        I build fast, accessible, and beautifully engineered software —
+        from distributed back-ends to pixel-perfect interfaces.
+        Currently crafting developer tools at the intersection of AI and UX.
+      </p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">Get in touch ↗</a>
+        <a href="../one_page_cv/index.html" target="_blank" class="btn btn-outline">View CV ↗</a>
+        <a href="#projects" class="btn btn-outline">View work →</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="photo-frame">
+        <img src="profile.jpeg" alt="Shamsuzzaman Prince" onerror="this.style.display='none';this.parentElement.classList.add('no-photo')"/>
+        <div class="photo-placeholder"></div>
+      </div>
+      <div class="hero-status">
+        <span class="status-dot"></span> Available for hire
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="section-header reveal">
+      <p class="section-label">About</p>
+      <h2>Engineer.<br>Learner.<br>Problem solver.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Hi — I'm Prince. I'm a <span>full-stack software engineer</span> with 3+ years of experience building scalable web applications, APIs, and developer tooling.</p>
+        <p>I love working at the <span>intersection of design and engineering</span> — systems that are not only robust under the hood but also a joy to use.</p>
+        <p>When I'm not writing code, I'm contributing to open source, <span>mentoring junior devs</span>, or obsessing over typography and layout.</p>
+        <div class="stats-grid">
+          <div class="stat"><div class="stat-num">3+</div><div class="stat-label">Years exp.</div></div>
+          <div class="stat"><div class="stat-num">6+</div><div class="stat-label">Projects shipped</div></div>
+          <div class="stat"><div class="stat-num">1</div><div class="stat-label">Companies</div></div>
+          <div class="stat"><div class="stat-num">199</div><div class="stat-label">GitHub stars</div></div>
+        </div>
+      </div>
+      <div class="skills-panel reveal">
+        <p class="section-label" style="margin-bottom:1.5rem;">Core stack</p>
+        <ul class="skills-list" id="skills-list">
+          <li><span>TypeScript / JavaScript</span><div class="skill-bar-wrap"><div class="skill-bar" data-width="95%"></div></div></li>
+          <li><span>React &amp; Next.js</span><div class="skill-bar-wrap"><div class="skill-bar" data-width="92%"></div></div></li>
+          <li><span>Node.js / Fastify</span><div class="skill-bar-wrap"><div class="skill-bar" data-width="88%"></div></div></li>
+          <li><span>Python (FastAPI)</span><div class="skill-bar-wrap"><div class="skill-bar" data-width="80%"></div></div></li>
+          <li><span>PostgreSQL / Redis</span><div class="skill-bar-wrap"><div class="skill-bar" data-width="85%"></div></div></li>
+          <li><span>Docker / Kubernetes</span><div class="skill-bar-wrap"><div class="skill-bar" data-width="75%"></div></div></li>
+          <li><span>AWS / GCP</span><div class="skill-bar-wrap"><div class="skill-bar" data-width="78%"></div></div></li>
+          <li><span>Rust (learning)</span><div class="skill-bar-wrap"><div class="skill-bar" data-width="40%"></div></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <p class="section-label">Selected work</p>
+      <h2>Projects.</h2>
+    </div>
+    <div class="projects-grid reveal">
+      <div class="project-card">
+        <div class="project-num">01</div>
+        <h3 class="project-title">Calculator</h3>
+        <p class="project-desc">SWE C project</p>
+        <div class="project-tags"><span>C</span><span>C++</span></div>
+        <a href="#" class="project-link">View project →</a>
+      </div>
+      <div class="project-card">
+        <div class="project-num">02</div>
+        <h3 class="project-title">Snake Game</h3>
+        <p class="project-desc">SWE 150 projcet</p>
+        <div class="project-tags"><span>C++</span><span>VS Code</span></div>
+        <a href="#" class="project-link">View project →</a>
+      </div>
+      <div class="project-card">
+        <div class="project-num">03</div>
+        <h3 class="project-title">Brick Breaker Game</h3>
+        <p class="project-desc">SWE OOP Project</p>
+        <div class="project-tags"><span>Java</span><span>LibGDX</span></div>
+        <a href="#" class="project-link">View project →</a>
+      </div>
+      <div class="project-card">
+        <div class="project-num">04</div>
+        <h3 class="project-title">Hall Management System</h3>
+        <p class="project-desc">SWE 250 project for Hall manage sust</p>
+        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>MYSQL</span></div>
+        <a href="#" class="project-link">View project →</a>
+      </div>
+      <div class="project-card">
+        <div class="project-num">05</div>
+        <h3 class="project-title">Quiz App</h3>
+        <p class="project-desc">I make a quiz app for Database Management Lab.</p>
+        <div class="project-tags"><span>React</span><span>MYSQL</span><span>CSS</span></div>
+        <a href="#" class="project-link">View project →</a>
+      </div>
+      <div class="project-card">
+        <div class="project-num">06</div>
+        <h3 class="project-title">Portfolio Site</h3>
+        <p class="project-desc">I make Portfolio Site for web technolgy Project.</p>
+        <div class="project-tags"><span>JS</span><span>HTML</span><span>CSS</span></div>
+        <a href="#" class="project-link">View project →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="section-header reveal">
+      <p class="section-label">Career</p>
+      <h2>Experience.</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">2026 — Present <span>Full Time</span></div>
+        <div class="timeline-role">Software Engineer</div>
+        <div class="timeline-company">Vercel · Remote</div>
+        <p class="timeline-desc">Lead engineer on the BD IT team. </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">2023 — 2025 <span>Learning</span></div>
+        <div class="timeline-role">Software Engineering </div>
+        <div class="timeline-company">Sust · Sylhet, Bangladesh</div>
+        <p class="timeline-desc">Bsc in SWE and make many project in course.</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="contact-inner reveal">
+      <div class="contact-left">
+        <p class="section-label">Get in touch</p>
+        <h2>Let's build<br><span>something great.</span></h2>
+        <p class="contact-sub">I'm currently open to senior / staff engineering roles and interesting freelance projects. Drop me a message — I reply within 24 hours.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:samsuzzamanprince16@gmail.com" class="contact-link">
+          <div class="contact-icon">✉</div>
+          <div><div class="contact-type">Email</div>samsuzzamanprince16@gmail.com</div>
+        </a>
+        <a href="https://github.com/blackrithm" target="_blank" class="contact-link">
+          <div class="contact-icon">⌥</div>
+          <div><div class="contact-type">GitHub</div>github.com/blackrithm</div>
+        </a>
+        <a href="https://bd.linkedin.com/in/shamsuzzamanprince" target="_blank" class="contact-link">
+          <div class="contact-icon">in</div>
+          <div><div class="contact-type">LinkedIn</div>https://bd.linkedin.com/in/shamsuzzamanprince</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <span>© 2026 shamsuzzaman Prince. Built with HTML, CSS &amp; JS.</span>
+    <a href="../one_page_cv/index.html" target="_blank" class="footer-cv">Download CV ↗</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

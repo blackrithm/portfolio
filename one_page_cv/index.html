@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shamsuzzaman Prince — CV</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Print / Download button (hidden when printing) -->
+  <div class="print-bar no-print">
+    <span class="print-bar-logo">Shamsuzzaman Prince — CV</span>
+    <div class="print-bar-actions">
+      <a href="../portfolio/index.html" class="btn-back">← Back to portfolio</a>
+      <button onclick="window.print()" class="btn-print">Save as PDF ↓</button>
+    </div>
+  </div>
+
+  <main class="cv">
+
+   <!-- Header -->
+    <header class="cv-header">
+      <div class="cv-name-block">
+        <h2 class="cv-firstname">Shamsuzzaman</h2>
+        <h1 class="cv-lastname">Prince</h1>
+        <p class="cv-title">Software Engineer · Full Stack</p>
+      </div>
+ 
+      <!-- Photo in the middle -->
+      <div class="cv-photo-block">
+        <div class="cv-photo-frame">
+          <img
+            src="profile.jpeg"
+            alt="Shamsuzzaman Prince"
+            onerror="this.style.display='none';document.querySelector('.cv-photo-initials').style.display='flex';"
+          />
+          <div class="cv-photo-initials">SP</div>
+        </div>
+      </div>
+ 
+      <div class="cv-contact-block">
+        <a href="mailto:samsuzzamanprince16@gmail.com">samsuzzamanprince16@gmail.com</a>
+        <a href="https://github.com/blackrithm" target="_blank">github.com/blackrithm</a>
+        <a href="https://bd.linkedin.com/in/shamsuzzamanprince" target="_blank">linkedin.com/shamsuzzamanprince</a>
+        <span>Sylhet, Bangladesh</span>
+      </div>
+    </header>
+ 
+
+    <!-- Summary -->
+    <section class="cv-section">
+      <h2 class="cv-section-title">Profile</h2>
+      <p class="cv-summary">
+        Full-stack software engineer with 3+ years of experience building scalable web applications,
+        developer tools, and distributed systems. Passionate about the intersection of design and
+        engineering — creating systems that are robust under the hood and a joy to use.
+        Track record of shipping high-impact products at Vercel, Stripe, and Shopify.
+      </p>
+    </section>
+
+    <!-- Two-column layout -->
+    <div class="cv-columns">
+
+      <!-- Left column -->
+      <div class="cv-col-main">
+
+        <!-- Experience -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Experience</h2>
+
+          <div class="cv-job">
+            <div class="cv-job-header">
+              <div>
+                <div class="cv-job-role">Software Engineer</div>
+                <div class="cv-job-company">Vercel &nbsp;·&nbsp; Remote</div>
+              </div>
+              <div class="cv-job-date">2026 — Present </div>
+            </div>
+            <ul class="cv-bullets">
+              <li>Lead engineer on the BD IT team.</li>
+             
+            </ul>
+          </div>
+
+          <div class="cv-job">
+            <div class="cv-job-header">
+              <div>
+                <div class="cv-job-role">Software Engineer II</div>
+                <div class="cv-job-company">Sylhet &nbsp;·&nbsp; Bangladesh</div>
+              </div>
+              <div class="cv-job-date">2023 — 2025 Learning</div>
+            </div>
+            <ul class="cv-bullets">
+              <li>Bsc in SWE and make many project in course.</li>
+ 
+            </ul>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Selected Projects</h2>
+          <div class="cv-projects">
+            <div class="cv-project">
+              <div class="cv-project-name">Calculator</div>
+              <div class="cv-project-desc">SWE C project using C.</div>
+            </div>
+            <div class="cv-project">
+              <div class="cv-project-name">Snake Game</div>
+              <div class="cv-project-desc">SWE 150 projcet using C++ in VS Code.</div>
+            </div>
+            <div class="cv-project">
+              <div class="cv-project-name">Brick Breaker </div>
+              <div class="cv-project-desc">SWE OOP Game Project using Java LibGDX.</div>
+            </div>
+            <div class="cv-project">
+              <div class="cv-project-name">Hall Management</div>
+              <div class="cv-project-desc">SWE 250 project for Hall management  System.for sust hall using Native react css Mysql .</div>
+            </div>
+          </div>
+        </section>
+<!-- Languages -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Languages</h2>
+          <ul class="cv-lang">
+            <li><span>English</span><span class="cv-lang-level">Professional</span></li>
+            <li><span>Bangla</span><span class="cv-lang-level">Native</span></li>
+            <li><span>Hindi</span><span class="cv-lang-level">Conversational</span></li>
+          </ul>
+        </section>
+
+      </div>
+
+      <!-- Right column -->
+      <div class="cv-col-side">
+
+        <!-- Skills -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Skills</h2>
+          <div class="cv-skill-group">
+            <div class="cv-skill-label">Languages</div>
+            <div class="cv-chips">
+              <span>C/C++</span><span>Java</span>
+              <span>Python</span>
+            </div>
+          </div>
+          <div class="cv-skill-group">
+            <div class="cv-skill-label">Frontend</div>
+            <div class="cv-chips">
+              <span>React</span><span>Next.js</span>
+              <span>CSS </span>
+            </div>
+          </div>
+          <div class="cv-skill-group">
+            <div class="cv-skill-label">Backend</div>
+            <div class="cv-chips">
+              <span>Node.js</span>
+            </div>
+          </div>
+          <div class="cv-skill-group">
+            <div class="cv-skill-label">Data & Infra</div>
+            <div class="cv-chips">
+              <span>MYSQL</span><span>MongoDB</span>
+              
+              <span>AWS</span>
+            </div>
+          </div>
+          
+        </section>
+
+        <!-- Education -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Education</h2>
+          <div class="cv-edu">
+            <div class="cv-edu-degree">B.Sc. Software Engineering</div>
+            <div class="cv-edu-school">SUST</div>
+            <div class="cv-edu-detail">2023 – 2026 &nbsp;·&nbsp; GPA 3</div>
+            
+          </div>
+        </section>
+
+        <!-- Achievements -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Achievements</h2>
+          <ul class="cv-achievements">
+            <li>199+ combined GitHub stars across open-source projects</li>
+            <li>Semi-Finalist, Annual Hackathon 2023</li>
+            <li>BD Award of Excellence, 2022</li>
+          </ul>
+        </section>
+
+        
+
+      </div>
+    </div>
+
+  </main>
+
+  <script>
+    // Auto-trigger print dialog if ?print=1 in URL
+    if (new URLSearchParams(location.search).get('print') === '1') {
+      window.addEventListener('load', () => setTimeout(() => window.print(), 400));
+    }
+  </script>
+</body>
+</html>
