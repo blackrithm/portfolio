@@ -39,8 +39,8 @@ navToggle.addEventListener('click', () => {
   navLinks.classList.toggle('open');
 });
 
-// Close menu on link click
-navLinks.querySelectorAll('a').forEach(a => {
+// Close menu only on internal anchor links
+navLinks.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', () => {
     navToggle.classList.remove('open');
     navLinks.classList.remove('open');
@@ -123,3 +123,10 @@ if (heroTag) {
   }
   setTimeout(typeLoop, 1400);
 }
+// Force external links to open in new tab
+document.querySelectorAll('a[href^="http"]').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.stopPropagation();
+    window.open(this.href, '_blank');
+  });
+});
